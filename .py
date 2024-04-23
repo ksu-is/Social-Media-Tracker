@@ -1,8 +1,8 @@
 def people_not_following_you_back(followers, following):
 
     # Compares the two lists and highlights names not in follower list 
-    
-    names_followers = [name for name in followers if name not in following]
+
+    names_followers = [name for name in following if name not in followers]
     return names_followers
 
 # Example usage:
